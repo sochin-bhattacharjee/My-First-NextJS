@@ -3,8 +3,7 @@ import PrivateRoute from "../components/PrivateRoute";
 function Profile() {
   return (
     <PrivateRoute>
-      <h1>Welcome to your profile!</h1>
-      <p>This is your secure profile page.</p>
+      <h1 className="text-3xl text-center mt-5">Welcome to your profile!</h1>
     </PrivateRoute>
   );
 }
