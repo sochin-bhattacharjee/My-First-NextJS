@@ -24,9 +24,9 @@ export default function Navbar() {
 
       <div>
         {isAuthenticated ? (
-          <LogoutLink className="hover:underline">Logout</LogoutLink>
+          <LogoutLink className="hover:underline bg-blue-500 p-4">Logout</LogoutLink>
         ) : (
-          <LoginLink className="hover:underline">Login</LoginLink>
+          <LoginLink className="hover:underline bg-blue-500 p-4">Login</LoginLink>
         )}
       </div>
     </section>
